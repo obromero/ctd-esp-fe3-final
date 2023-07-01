@@ -1,0 +1,21 @@
+.favorite-card {
+  display: flex;
+  flex-direction: row;
+  
+  gap: 16px;
+  justify-content: center;
+  margin: 100px;
+  padding: 160px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
